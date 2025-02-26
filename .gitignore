@@ -1,0 +1,56 @@
+# Environment variables and sensitive info
+.env
+*.env
+!.env.example
+
+# Python virtual environment
+venv/
+env/
+.venv/
+.ENV/
+.env.bak/
+.venv.bak/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+log/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.psql
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# System files
+.localized
+
+# Misc
+*.pdf
+*.docx
+*.zip
